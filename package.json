@@ -1,0 +1,19 @@
+{
+  "name": "cypress-plugin-last-failed-repro",
+  "version": "1.0.0",
+  "description": "Reproduction repository for dennisbergevin/cypress-plugin-last-failed issue",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:headed": "cypress run --headed",
+    "cy:rerun:failed": "cypress-plugin-last-failed run"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.2",
+    "typescript": "^5.8.3",
+    "@types/node": "^24.0.14",
+    "cypress-plugin-last-failed": "^2.0.8",
+    "@bahmutov/cy-grep": "^2.0.35"
+  }
+}

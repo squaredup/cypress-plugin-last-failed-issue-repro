@@ -1,0 +1,7 @@
+[
+  {
+    "spec": "cypress\\e2e\\example.cy.ts",
+    "parent": ["Example.com Test Suite"],
+    "test": "should load the example.com homepage successfully"
+  }
+]
